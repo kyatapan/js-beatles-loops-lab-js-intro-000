@@ -10,4 +10,5 @@ function johnLennonFacts(array) {
   do {
     
   } while (i<array.length)
+  return 
 }
