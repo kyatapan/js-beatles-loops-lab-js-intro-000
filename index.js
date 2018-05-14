@@ -14,3 +14,12 @@ function johnLennonFacts(array) {
   } while (i<array.length);
   return newArray;
 }
+
+function johnLennonFacts(array) {
+  var newArray = [];
+  var i=0;
+  do { newArray.push(`${array[i]}!!!`);
+       i++;
+  } while (i<array.length);
+  return newArray;
+}
